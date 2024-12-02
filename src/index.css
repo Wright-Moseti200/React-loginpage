@@ -1,0 +1,42 @@
+body
+{
+  height:100vh;
+background-color: white;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: linear-gradient(45deg,purple,blue);
+}
+
+.box
+{
+  width:480px;
+
+}
+
+.title
+{
+  color:blue;
+  text-align:center;
+}
+
+input
+{
+  border: none;
+}
+
+button
+{
+  width:160px;
+  border:none;
+  outline: none;
+}
+
+.buttongroup
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:440px;
+}
